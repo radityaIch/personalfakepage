@@ -30,6 +30,12 @@
 				font-size: 3em;
 				animation: ht1 .7s 3 both;
 			}
+			.welcome h3{		
+				background-color: #ececec;
+				color: #1e1e1e;
+				padding: 0 .5rem 0 .5rem;
+				animation: ht1 .7s 3 both;
+			}
 			.box{
 				background-color: #ececec;
 				width: 100%;
@@ -106,9 +112,16 @@
 			<section class="welcome">
 				<div class="box" id="bx1"></div>
 				<h1>Hi, Welcome to My Portfolio</h1>
+				<h3>Click Here for my project on github !</h3>
 				<div class="box" id="bx2"></div>
-				<button>Look More...</button>
+				<button onclick="myProject()">My Github Project</button>
 			</section>
 		</main>
+		<script>
+			function myProject(){
+				window.location.href='https://github.com/KaizerZZ';
+			}
+				
+		</script>
 	</body>
 </html>
