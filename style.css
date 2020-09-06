@@ -5,7 +5,6 @@
 }
 html{
     scroll-behavior: smooth;
-    transition: 3s;
 }
 body{
     height: auto;
@@ -151,4 +150,13 @@ img{
 }
 .dtl-item{
     padding: 5px;
+}
+.quotes{
+    margin-left: auto;
+    margin-top: auto;
+}
+.q-text{
+    width: 80%;
+    margin-left: auto;
+    text-align: right;
 }
