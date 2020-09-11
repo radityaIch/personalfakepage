@@ -120,7 +120,7 @@ body{
     }
 }
 .main-info{
-    display: flex;
+    position: relative;
     color: #fff;
     background: url('./profile.jpg');
     background-repeat: no-repeat;
@@ -129,11 +129,20 @@ body{
     height: 630px;
     width: 100%;
 }
+.info-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 8%;
+    
+}
 .info{
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 20%;
+    padding-top: 10%;
 }
 .info .box-info .dtl-info .dtl-list{
     list-style-type: none;
@@ -159,4 +168,67 @@ img{
     width: 80%;
     margin-left: auto;
     text-align: right;
+}
+.main-project{
+    position: relative;
+    color: #fff;
+    background: url('./18397.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 630px;
+    max-height: auto;
+    width: 100%;
+}
+.project-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 8%;
+}
+.project-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 1%;
+}
+.project{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 5%;
+}
+.project-item{
+    position: relative;
+    border: 1px solid #fff;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 290px;
+    max-height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.project-item .header-image-project img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 90%;
+}
+.project-item .title-project{
+    text-align: center;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,0);
+    transition: .7s;
+}
+.project-item:hover > .title-project{
+    color: #333;
+    background-color: #fff;
+    transition: .7s;
 }
