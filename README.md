@@ -1,4 +1,4 @@
-# radityaich.github.io
+# ichinomiyamori.netlify.app
 
 ## Project setup
 ```
