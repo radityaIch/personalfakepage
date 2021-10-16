@@ -6,7 +6,7 @@
   <MyProjects />
   <div class="separator mb-5" id="socials"></div>
   <Socials />
-  <div class="separator mb-5"></div>
+  <div class="separator mb-5" style="margin-bottom: 10vh"></div>
   <ModalExample />
 </template>
 <style>
